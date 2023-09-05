@@ -20,12 +20,14 @@ function Footer() {
         </ul>
       </nav>
 
-      <div className="flex justify-between">
+      <div className="flex flex-col gap-2 md:flex-row md:justify-between">
         <Link to="/">
           <img src={appLogo} alt="app logo" />
         </Link>
 
-        <p className="text-tertiary">© 2023 MA-A-KALI. All rights reserved.</p>
+        <p className="text-tertiary text-xs md:text-base">
+          © 2023 MA-A-KALI. All rights reserved.
+        </p>
       </div>
     </footer>
   );

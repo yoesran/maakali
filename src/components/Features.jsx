@@ -4,7 +4,7 @@ import FeatureItem from "./FeatureItem";
 
 function Features() {
   return (
-    <div className="w-full p-10 flex flex-wrap justify-center">
+    <div className="w-full flex flex-wrap justify-center md:10">
       {features.map((feature) => (
         <FeatureItem key={feature.title} feature={feature} />
       ))}

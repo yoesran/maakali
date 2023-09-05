@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 
 function Products() {
   return (
-    <div className="flex flex-col items-center gap-6 p-12">
+    <div className="flex flex-col items-center gap-6 md:p-12">
       <div className="flex flex-col gap-3 text-center">
         <p className="text-greenText font-semibold">Product</p>
         <h2 className="text-3xl font-semibold">What we offer</h2>
